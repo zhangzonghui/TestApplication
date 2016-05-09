@@ -15,7 +15,11 @@ import android.widget.TextView;
 
 /***
  * 
+<<<<<<< .merge_file_a09892
  * @author==ZZH2111
+=======
+ * @author==ZZH test 2
+>>>>>>> .merge_file_a09300
  * ��ҳ��
  */
 
@@ -44,7 +48,7 @@ public class MainActivity extends Activity implements OnClickListener,OnActionBt
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
+		// test TODO Auto-generated method stub
 		super.onResume();
 	}
 	
