@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ReadActivity" >
+    
+    <com.tempus.traceback.ActionbarView
+        android:id="@+id/read_actionbar"
+        style="@style/ActionBarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whitesmoke" />
+
+    <TextView
+        android:id="@+id/ifo_NFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/readActiivty_showmessage" />
+
+     <LinearLayout 
+           android:id="@+id/line_nfc" 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:weightSum="5" 
+           android:orientation="horizontal"
+           android:gravity="center_horizontal"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="10dp"
+           >
+             <TextView 
+             android:id="@+id/new_nfc"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"
+             android:text="@string/readActiivty_newmessage"
+             android:textSize="25sp"
+             android:textColor="@color/green"
+             android:layout_weight="3"
+             android:background="@drawable/circulor_textview_onclic"
+             android:gravity="center_horizontal"
+              />
+          </LinearLayout>
+
+</RelativeLayout>
