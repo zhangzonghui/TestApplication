@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener,OnActionBt
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
+		// test TODO Auto-generated method stub
 		super.onResume();
 	}
 	
